@@ -111,53 +111,40 @@
 <body>
 
 <div class="container">
-   <div style="text-align: center; margin-bottom: 15px;">
-    <img src="factory.jpg" alt="Factory Image" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);">
-</div>
-    <div style="text-align: center; margin-top: 20px; margin-bottom: 25px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
-    
-    <div style="text-align: center;">
-        <img src="owner1.jpg" alt="Owner 1" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #007bff; box-shadow: 0px 4px 6px rgba(0,0,0,0.15);">
-        <p style="margin-top: 5px; font-weight: bold; color: #333; font-size: 14px;">Proprietor</p>
+<div class="container">
+    <div style="text-align: center; margin-bottom: 15px;">
+        <img src="factory.jpg" alt="Factory Image" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0,0,0,0.15);">
     </div>
 
-    <div style="text-align: center;">
-        <img src="owner2.jpg" alt="Owner 2" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #007bff; box-shadow: 0px 4px 6px rgba(0,0,0,0.15);">
-        <p style="margin-top: 5px; font-weight: bold; color: #333; font-size: 14px;">Manager / Partner</p>
+    <div style="text-align: center; margin-bottom: 25px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+        <div style="text-align: center;">
+            <img src="owner1.jpg" alt="Owner 1" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #007bff; box-shadow: 0px 4px 6px rgba(0,0,0,0.15);">
+            <p style="margin-top: 5px; font-weight: bold; color: #333; font-size: 14px;">Proprietor</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="owner2.jpg" alt="Owner 2" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #007bff; box-shadow: 0px 4px 6px rgba(0,0,0,0.15);">
+            <p style="margin-top: 5px; font-weight: bold; color: #333; font-size: 14px;">Manager / Partner</p>
+        </div>
     </div>
 
-</div>
-
-<div style="text-align: center; margin-bottom: 25px; display: flex; justify-content: center; gap: 20px;">
-    
-    <div style="text-align: center;">
-        <img src="owner1.jpg" alt="Owner 1" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #007bff; box-shadow: 0px 4px 6px rgba(0,0,0,0.1);">
-        <p style="margin-top: 5px; font-weight: bold; color: #333; font-size: 14px;">Proprietor</p>
-    </div>
-
-    <div style="text-align: center;">
-        <img src="owner2.jpg" alt="Owner 2" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #007bff; box-shadow: 0px 4px 6px rgba(0,0,0,0.1);">
-        <p style="margin-top: 5px; font-weight: bold; color: #333; font-size: 14px;">Manager</p>
-    </div>
-
-</div>
     <a id="factoryName" class="main-title" onclick="showOptions()">🏢 Factory Management System</a>
 
     <div id="optionsPanel" class="options-panel">
         <h2>Select Dashboard</h2>
         <div class="btn-group">
-            <button class="btn btn-employee" onclick="alert('Employee Dashboard coming soon...')">👤 Employee Portal</button>
+            <button class="btn btn-employee" onclick="alert('Employee Dashboard coming soon...')">👷 Employee Dashboard</button>
             <a href="Clients.html" class="btn btn-client">💼 Client Portal</a>
         </div>
     </div>
 </div>
 
 <script>
-    function showOptions() {
-        document.getElementById('factoryName').style.display = 'none';
-        document.getElementById('optionsPanel').style.display = 'block';
-    }
+function showOptions() {
+    document.getElementById('factoryName').style.display = 'none';
+    document.getElementById('optionsPanel').style.display = 'block';
+}
 </script>
+
 
 </body>
 </html>
